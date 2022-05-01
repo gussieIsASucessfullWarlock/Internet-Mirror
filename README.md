@@ -79,8 +79,18 @@ Open your web browser and type:
 
 Go To: Settings > Data Sources > Add data source
 
+```bash
 Select: MySql
+```
+```bash
 Host: localhost:3306
+```
+```bash
 Database: Connections
+```
+```bash
 User: root
+```
+```bash
 Password: Password you set in step 3
+```
