@@ -94,3 +94,5 @@ User: root
 ```bash
 Password: Password you set in step 3
 ```
+
+Then Create your dashboard how-ever you want.
