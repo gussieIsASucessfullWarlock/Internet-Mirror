@@ -53,9 +53,10 @@ Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y
 ```
 
 ### Step 3: Configure Run At Boot
+Run:
 
 ```bash
-Run sudo crontab -e 
+sudo crontab -e 
 ```
 
 Chose Nano and write:
