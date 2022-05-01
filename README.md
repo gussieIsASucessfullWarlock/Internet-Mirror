@@ -77,3 +77,10 @@ Open your web browser and type:
 
 <a href="http://localhost:3000">http://serverip:3000</a>
 
+Go To: Settings > Data Sources > Add data source
+
+Select: MySql
+Host: localhost:3306
+Database: Connections
+User: root
+Password: Password you set in step 3
