@@ -8,12 +8,12 @@ sudo systemctl status grafana-server
 sudo systemctl enable grafana-server.service
 sudo apt-get install -y apt-transport-https
 sudo apt-get install -y software-properties-common wget
-sudo apt-get update
-sudo apt-get install grafana-enterprise
+sudo apt-get update -y
+sudo apt-get install grafana-enterprise -y
 sudo systemctl daemon-reload
 sudo systemctl start grafana-server
 sudo systemctl enable grafana-server.service
-apt install mysql-server
+apt install mysql-server -y
 clear
 mysql-secureinstallation
 pip install mysql-connector-python
