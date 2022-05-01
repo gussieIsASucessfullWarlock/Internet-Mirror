@@ -95,4 +95,8 @@ User: root
 Password: Password you set in step 3
 ```
 
-Then Create your dashboard how-ever you want.
+Select + > Dashboard > Import
+
+and paste the .json file from this repository.
+
+Then customize your dashboard how-ever you want.
