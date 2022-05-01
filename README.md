@@ -58,12 +58,16 @@ Reload privilege tables now? (Press y|Y for Yes, any other key for No) : y
 Run sudo crontab -e 
 ```
 
-Chose Nano
-
-and write 
+Chose Nano and write:
 
 ```bash
 @reboot python3 /bin/stest.py &
+```
+
+then save and close the file.
+
+```bash
+sudo reboot
 ```
 
 ### Step 3: Configure The Web Page
