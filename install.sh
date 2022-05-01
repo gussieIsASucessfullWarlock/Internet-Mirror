@@ -22,6 +22,8 @@ chmod 777 test.py
 cp test.py /bin/stest.py
 ufw allow 3006
 sudo systemctl restart mysql
+mysql --execute="CREATE USER 'app'@'localhost' IDENTIFIED BY 'Computer1!';"
+mysql --execute="GRANT ALL PRIVILEGES ON *.* TO 'app'@'localhost' WITH GRANT OPTION;"
 clear
 echo Edit crontab to make this run at boot. With sudo crontab -e and the file location is: /bin/stest.py.
 sleep 1
