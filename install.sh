@@ -1,5 +1,7 @@
 apt update
 apt install net-tools
+apt install python3
+apt install python3-pip
 sudo apt install speedtest-cli
 sudo apt-get install -y adduser libfontconfig1
 wget https://dl.grafana.com/enterprise/release/grafana-enterprise_8.5.1_amd64.deb
@@ -14,7 +16,7 @@ sudo systemctl start grafana-server
 sudo systemctl enable grafana-server.service
 apt install mysql-server -y
 clear
-mysql-secure-installation
+mysql_secure_installation
 pip install mysql-connector-python
 chmod 777 test.py 
 cp test.py /bin/stest.py
