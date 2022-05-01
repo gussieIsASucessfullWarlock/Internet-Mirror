@@ -4,7 +4,6 @@ sudo apt install speedtest-cli
 sudo apt-get install -y adduser libfontconfig1
 wget https://dl.grafana.com/enterprise/release/grafana-enterprise_8.5.1_amd64.deb
 sudo dpkg -i grafana-enterprise_8.5.1_amd64.deb
-sudo systemctl status grafana-server
 sudo systemctl enable grafana-server.service
 sudo apt-get install -y apt-transport-https
 sudo apt-get install -y software-properties-common wget
