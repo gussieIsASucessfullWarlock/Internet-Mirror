@@ -34,6 +34,8 @@ Verify Password: Your Choice
 Do you wish to continue with the password provided? y
 ```
 
+
+
 ```bash
 Remove anonymous users? (Press y|Y for Yes, any other key for No) : y
 ```
@@ -63,3 +65,10 @@ and write
 ```bash
 @reboot python3 /bin/stest.py &
 ```
+
+### Step 3: Configure The Web Page
+
+Open your web browser and type:
+
+<a href="http://localhost:3000">http://serverip:3000</a>
+
