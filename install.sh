@@ -23,16 +23,16 @@ ufw allow 3006
 sudo systemctl restart mysql
 clear
 echo “Edit crontab to make this run at boot. With sudo crontab -e and the file location is: /bin/stest.py.”
-sleep(1)
+sleep 1
 echo “Rebooting in 5”
-sleep(1)
+sleep 1
 echo “Rebooting in 4”
-sleep(1)
+sleep 1
 echo “Rebooting in 3”
-sleep(1)
+sleep 1
 echo “Rebooting in 2”
-sleep(1)
+sleep 1
 echo “Rebooting in 1”
-sleep(1)
+sleep 1
 echo “Rebooting”
 reboot
